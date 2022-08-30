@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 container {
     display: flex;
 }
@@ -7,6 +13,7 @@ container {
 .container {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .card-container {
@@ -30,4 +37,19 @@ container {
 
 .logo {
     height: 80%;
+}
+
+.top {
+    background-color: rgb(206, 255, 239);
+    flex-grow: 1;
+}
+
+.middle {
+    background-color: azure;
+    flex-grow: 1;
+}
+
+.bottom {
+    background-color: rgb(216, 206, 175);
+    flex-grow: 1;
 }
