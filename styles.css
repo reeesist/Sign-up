@@ -70,16 +70,31 @@ body {
 .top-text {
     font-size: 1.2em;   
     position: relative;
-    top: 50%;
-    left: 5%;
+    top: 18vh;
+    left: 5vh;
 }
 
 .middle {
     background-color: azure;
     height: 33.3%;
+    padding-left: 5vh;
+    padding-top: 3vh;
+    display: flex;
+    gap: 20px 40px;
+    
 }
 
 .bottom {
     background-color: rgb(216, 206, 175);
     height: 33.3%;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
 }
