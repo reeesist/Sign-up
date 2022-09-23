@@ -69,7 +69,9 @@ body {
 
 .top-text {
     font-size: 1.2em;   
-    
+    position: relative;
+    top: 50%;
+    left: 5%;
 }
 
 .middle {
