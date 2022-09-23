@@ -9,24 +9,27 @@
 body {
     font-family: 'Roboto';
     display: flex;
+    height: 100vh;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
 
 .card-container {
     position: relative;
+    background: no-repeat center/100% url(./photo-1585202900225-6d3ac20a6962.avif);
+    height: 100%;
     width: 40%;
 }
 
+/* 
 .foto {
-    width: max(150px, 100%);
-    height: max(150px, 100%);
+        width: max(150px, 100%);
+        height: max(150px, 100%);
     display: block;
-}
+} */
 
 .italic {
     font-style: italic;
@@ -52,16 +55,21 @@ body {
     height: 80%;
 }
 
+/* -----rightside----- */
+
+.container {
+    height: 100vr;
+    width: 60%
+}
+
 .top {
     background-color: rgb(206, 255, 239);
     height: 33.3%;
 }
 
 .top-text {
-    position: relative;
-    top: 50%;
-    left: 5%; 
     font-size: 1.2em;   
+    
 }
 
 .middle {
