@@ -130,3 +130,30 @@ input:focus-within {
     border: 0.5px solid rgb(141, 141, 248);
 }
 
+.bottom {
+    padding-left: 5vh;
+    padding-top: 7vh;
+}
+
+
+
+.but {
+        padding-top: 30px;
+}
+
+.login {
+    color: rgb(89,109,72);
+    background-color: rgb(216, 206, 175);
+    border: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+button[type='submit'] {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(89,109,72);
+    font-size: 1.2rem;
+}
